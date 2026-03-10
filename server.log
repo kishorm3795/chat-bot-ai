@@ -1,0 +1,34 @@
+/Users/pavankishorm/Documents/My Projects/chat_bot/backend/ai_engine.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+/Users/pavankishorm/Documents/My Projects/chat_bot/backend/main.py:394: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [60692]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+✅ Google Gemini AI initialized successfully!
+🤖 AI Student Chatbot started!
+   Chat mode: RAG-powered student assistant
+   Auto-reply: Gemini ✅
+Error loading text files: Error loading /Users/pavankishorm/Documents/My Projects/chat_bot/knowledge_base/text
+✅ Loaded 2 documents (vector store not initialized - no API key)
+   Knowledge base: 2 documents loaded
+   WhatsApp: ⚠️ Not configured (set TWILIO credentials in .env)
+   Dashboard → http://localhost:8000/widget
+INFO:     127.0.0.1:58309 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [60692]
